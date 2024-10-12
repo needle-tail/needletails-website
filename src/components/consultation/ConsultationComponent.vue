@@ -163,7 +163,7 @@ export default {
     const handleGetInTouch = () => {
       var mailto_link =
         'mailto:' +
-        'inquiry@cartisim.io' +
+        'support@needletails.com' +
         '?subject=' +
         'Project Inquiry' +
         '&body=' +

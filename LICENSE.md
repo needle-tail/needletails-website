@@ -19,5 +19,5 @@ Any other logos or icons used within this project that are not created by Needle
 For inquiries regarding the use of the Logos or any other questions related to this software, please contact:
 
 NeedleTails
-inquiry@cartisim.io
+support@needletails.com
 needletails.com

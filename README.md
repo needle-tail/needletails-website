@@ -1,11 +1,11 @@
 ![NeedleTails](src/assets/devLogo.svg)
-# NeedleTail Support Website
+# NeedleTails Support Website
 
-Welcome to the NeedleTail Support Website! This platform serves as an interface between open-source and closed-source software, connecting individuals and organizations with the resources and expertise they need.
+Welcome to the NeedleTails Support Website! This platform serves as an interface between open-source and closed-source software, connecting individuals and organizations with the resources and expertise they need.
 
-## About NeedleTail
+## About NeedleTails
 
-NeedleTail is dedicated to fostering collaboration and support within the software development community. Our mission is to bridge the gap between different software sources and provide a space for developers, enthusiasts, and businesses to find the help they need.
+NeedleTails is dedicated to fostering collaboration and support within the software development community. Our mission is to bridge the gap between different software sources and provide a space for developers, enthusiasts, and businesses to find the help they need.
 
 ## What We Offer
 
@@ -21,7 +21,7 @@ NeedleTail is dedicated to fostering collaboration and support within the softwa
 
 ## Getting Started
 
-To get started, simply navigate through our website to explore the available resources and connect with experts. Whether you are looking to contribute to an open-source project or need assistance with a closed-source application, NeedleTail is here to help!
+To get started, simply navigate through our website to explore the available resources and connect with experts. Whether you are looking to contribute to an open-source project or need assistance with a closed-source application, NeedleTails is here to help!
 
 ## Contributing
 
@@ -33,10 +33,10 @@ This project is licensed under the terms of the [MIT License](LICENSE.md).
 
 ## Contact Us
 
-If you have any questions or need further assistance, feel free to reach out to us at [inquiry@cartisim.io](mailto:inquiry@cartisim.io).
+If you have any questions or need further assistance, feel free to reach out to us at [support@needletails.com](mailto:support@needletails.com).
 
-Thank you for visiting the NeedleTail Support Website! Together, we can enhance collaboration and support in the software development community.
+Thank you for visiting the NeedleTails Support Website! Together, we can enhance collaboration and support in the software development community.
 
 ---
 
-*This README was last updated on 10/11/24.*
+*This README was last updated on 10/12/24.*

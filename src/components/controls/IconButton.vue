@@ -155,7 +155,7 @@ export default {
       } else if (props.hasEmailClickHandler === true) {
         var mailto_link =
         'mailto:' +
-        'inquiry@cartisim.io' +
+        'support@needletails.com' +
         '?subject=' +
         'Project Inquiry' +
         '&body=' +

@@ -49,8 +49,8 @@ Follow the existing code style and conventions used in the project.
 Write clear and concise comments to explain your code.
 Ensure that your code is well-tested and passes all existing tests.
 Questions?
-If you have any questions or need assistance, feel free to reach out to us at inquiry@cartisim.io.
-Thank you for your contributions to NeedleTail! Together, we can make a difference in the software development community.
+If you have any questions or need assistance, feel free to reach out to us at support@needletails.com.
+Thank you for your contributions to NeedleTails! Together, we can make a difference in the software development community.
 This document was last updated on [Insert Date].
 
 ### Key Points:
