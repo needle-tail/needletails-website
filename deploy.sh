@@ -13,11 +13,11 @@ cd dist
 if [ ! -d .git ]; then
   # If not, initialize a new Git repository
   git init
-  git remote add origin git@github.com:needle-tail/needletails-website/github-pages.git
+  git remote add origin git@github.com:needle-tail/needletails-website.git
 else
   # Check if the remote already exists
   if ! git remote get-url origin > /dev/null 2>&1; then
-    git remote add origin git@github.com:needle-tail/needletails-website/github-pages.git
+    git remote add origin git@github.com:needle-tail/needletails-website.git
   fi
 fi
 
