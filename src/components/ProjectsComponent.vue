@@ -110,7 +110,7 @@ export default {
         'iapEntitlementEngineProject',
         'betweenText',
         'IAPLogo.png',
-        'https://github.com/Cartisim/iap-entitlement-engine',
+        'https://github.com/needle-tail/iap-entitlement-engine',
         '80%'
       ),
     ]);
