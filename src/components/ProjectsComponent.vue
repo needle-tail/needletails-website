@@ -43,7 +43,8 @@ export default {
       descriptionKey,
       imagePosition,
       imagePath,
-      externalUrl
+      externalUrl,
+      size
     ) => ({
       subtitle: t(applicationTitle),
       header: t(headerKey),
@@ -54,6 +55,7 @@ export default {
       fontColor: '#FFFFFF',
       imagePosition,
       externalUrl,
+      size
     });
 
     const gridItems = computed(() => [
@@ -63,7 +65,8 @@ export default {
         'spinetailedKitProject',
         'betweenText',
         'SpineTailedKit.png',
-        'https://github.com/needle-tail'
+        'https://github.com/needle-tail',
+        ''
       ),
       createGridItem(
         'projectTitle_2',
@@ -71,7 +74,8 @@ export default {
         'needletailKitProject',
         'betweenText',
         'NeedleTailKit.png',
-        'https://github.com/needle-tail'
+        'https://github.com/needle-tail',
+        ''
       ),
       createGridItem(
         'projectTitle_3',
@@ -79,7 +83,8 @@ export default {
         'whiteTippedSocketsProject',
         'betweenText',
         'WhiteTipped.png',
-        'https://github.com/needle-tail/white-tipped-sockets'
+        'https://github.com/needle-tail/white-tipped-sockets',
+        ''
       ),
       createGridItem(
         'projectTitle_5',
@@ -87,7 +92,8 @@ export default {
         'swiftHlsProject',
         'betweenText',
         'HLSLogo.png',
-        'https://github.com/needle-tail'
+        'https://github.com/needle-tail',
+        '80%'
       ),
       createGridItem(
         'projectTitle_4',
@@ -95,7 +101,8 @@ export default {
         'swiftStompProject',
         'betweenText',
         'Stomp.png',
-        'https://github.com/needle-tail'
+        'https://github.com/needle-tail',
+        '80%'
       ),
       createGridItem(
         'projectTitle_6',
@@ -103,7 +110,8 @@ export default {
         'iapEntitlementEngineProject',
         'betweenText',
         'IAPLogo.png',
-        'https://github.com/Cartisim/iap-entitlement-engine'
+        'https://github.com/Cartisim/iap-entitlement-engine',
+        '80%'
       ),
     ]);
 

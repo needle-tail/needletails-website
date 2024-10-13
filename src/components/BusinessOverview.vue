@@ -84,7 +84,7 @@ export default {
         'applicationTitle',
         'serviceHeaderMobileAppDevelopment',
         'serviceDescriptionMobileAppDevelopment',
-        'belowDescription',
+        'betweenText',
         'NeedleTailLeftColor.png',
         ''
       ),
@@ -100,7 +100,7 @@ export default {
         'applicationTitle',
         'serviceHeaderWebDevelopment',
         'serviceDescriptionWebDevelopment',
-        'aboveHeader',
+        'betweenText',
         'VaporLogo.png',
         ''
       ),

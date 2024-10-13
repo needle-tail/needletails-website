@@ -26,6 +26,7 @@
               :src="item.image"
               :alt="item.alt || 'Image description'"
               class="grid-image"
+              :style="{ maxWidth: item.size || '100%' }"
             />
           </div>
 
@@ -47,7 +48,8 @@
               :src="item.image"
               :alt="item.alt || 'Image description'"
               class="grid-image"
-            />
+              :style="{ maxWidth: item.size || '100%' }"
+              />
           </div>
 
           <p class="grid-text" :style="{ color: item.fontColor }">
@@ -62,6 +64,7 @@
               :src="item.image"
               :alt="item.alt || 'Image description'"
               class="grid-image"
+              :style="{ maxWidth: item.size || '100%' }"
             />
           </div>
         </div>
@@ -69,6 +72,7 @@
     </div>
   </div>
 </template>
+
 
 <script>
 import { defineComponent, ref, onMounted, onBeforeUnmount } from 'vue';
@@ -124,7 +128,7 @@ export default defineComponent({
     subtitleBgColor: {
       type: String,
       default: '#00000000',
-    },
+    }
   },
   setup(props) {
     const handleTap = (item) => {
@@ -260,7 +264,6 @@ export default defineComponent({
 }
 
 .grid-image {
-  max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
