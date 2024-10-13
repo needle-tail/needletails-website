@@ -92,7 +92,7 @@ export default {
         'swiftHlsProject',
         'betweenText',
         'HLSLogo.png',
-        'https://github.com/needle-tail',
+        'https://github.com/needle-tail/swift-hls',
         '80%'
       ),
       createGridItem(
@@ -101,7 +101,7 @@ export default {
         'swiftStompProject',
         'betweenText',
         'Stomp.png',
-        'https://github.com/needle-tail',
+        'https://github.com/needle-tail/swift-stomp',
         '80%'
       ),
       createGridItem(
