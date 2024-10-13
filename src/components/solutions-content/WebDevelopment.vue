@@ -14,7 +14,7 @@
     </section>
 
     <section class="key-areas">
-      <h2>Key Areas of Expertise</h2>
+      <h2>Points for Consideration</h2>
       <GridView :items="gridItems" :columns="2" />
     </section>
   </div>
@@ -59,12 +59,12 @@ export default {
     });
 
     const gridItems = computed(() => [
-      createGridItem('', 'webDevelopmentKeyArea1', '', '', '', ''),
-      createGridItem('', 'webDevelopmentKeyArea2', '', '', '', ''),
-      createGridItem('', 'webDevelopmentKeyArea3', '', '', '', ''),
-      createGridItem('', 'webDevelopmentKeyArea4', '', '', '', ''),
-      createGridItem('', 'webDevelopmentKeyArea5', '', '', '', ''),
-      createGridItem('', 'webDevelopmentKeyArea6', '', '', '', ''),
+      createGridItem('', 'webDevelopmentKeyAreaTitle1', 'webDevelopmentKeyArea1', '', '', ''),
+      createGridItem('', 'webDevelopmentKeyAreaTitle2', 'webDevelopmentKeyArea2', '', '', ''),
+      createGridItem('', 'webDevelopmentKeyAreaTitle3', 'webDevelopmentKeyArea3', '', '', ''),
+      createGridItem('', 'webDevelopmentKeyAreaTitle4', 'webDevelopmentKeyArea4', '', '', ''),
+      createGridItem('', 'webDevelopmentKeyAreaTitle5', 'webDevelopmentKeyArea5', '', '', ''),
+      createGridItem('', 'webDevelopmentKeyAreaTitle6', 'webDevelopmentKeyArea6', '', '', ''),
     ]);
 
     return {
@@ -109,13 +109,13 @@ export default {
 
 .overview h2,
 .key-areas h2 {
+  display: inline-block;
   font-size: 1.8em;
   color: #33BCE5;
   margin-bottom: 10px;
-}
-
-.key-areas {
-  margin-bottom: 20px; /* Space below the key areas section */
+  border-bottom: 2px solid #33BCE5;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .contact-button {

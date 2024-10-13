@@ -113,8 +113,16 @@ img {
   user-select: none;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
-  -webkit-font-smoothing: antialiased !important;
-  -moz-osx-font-smoothing: grayscale !important;
+}
+
+p {
+    color: #ffffff; /* White text color for contrast */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 15px; /* Add some padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    line-height: 1.6; /* Improved line spacing for readability */
+    margin: 20px 0; /* Margin above and below the paragraph */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
 
 h1 {

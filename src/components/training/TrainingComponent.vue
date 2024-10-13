@@ -13,7 +13,7 @@
     </section>
 
     <section class="key-competencies">
-      <h2>Key Competencies in Training Courses</h2>
+      <h2>Training Courses</h2>
       <GridView :items="trainingData" :columns="2" />
     </section>
 
@@ -65,8 +65,6 @@ export default {
       createGridItem('', 'trainingKeyCompetency2', '', '', '', ''),
       createGridItem('', 'trainingKeyCompetency3', '', '', '', ''),
       createGridItem('', 'trainingKeyCompetency4', '', '', '', ''),
-      createGridItem('', 'trainingKeyCompetency5', '', '', '', ''),
-      createGridItem('', 'trainingKeyCompetency6', '', '', '', ''),
     ]);
 
     const handleGetInTouch = () => {
@@ -121,17 +119,15 @@ export default {
   font-size: 1.2em;
 }
 
-.overview,
-.key-competencies {
-  margin-bottom: 20px;
-  /* Space below the sections */
-}
-
 .overview h2,
 .key-competencies h2 {
+  display: inline-block;
   font-size: 1.8em;
   color: #33BCE5;
   margin-bottom: 10px;
+  border-bottom: 2px solid #33BCE5;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .contact-button {

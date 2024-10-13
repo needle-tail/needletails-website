@@ -14,7 +14,7 @@
     </section>
 
     <section class="key-areas">
-      <h2>Key Areas of Expertise</h2>
+      <h2>Points for Consideration</h2>
       <GridView :items="gridItems" :columns="2" />
     </section>
   </div>
@@ -57,12 +57,12 @@ export default {
     });
 
     const gridItems = computed(() => [
-      createGridItem('', 'backendKeyArea1', '', '', '', ''),
-      createGridItem('', 'backendKeyArea2', '', '', '', ''),
-      createGridItem('', 'backendKeyArea3', '', '', '', ''),
-      createGridItem('', 'backendKeyArea4', '', '', '', ''),
-      createGridItem('', 'backendKeyArea5', '', '', '', ''),
-      createGridItem('', 'backendKeyArea6', '', '', '', ''),
+      createGridItem('', 'backendKeyAreaTitle1', 'backendKeyArea1', '', '', ''),
+      createGridItem('', 'backendKeyAreaTitle2', 'backendKeyArea2', '', '', ''),
+      createGridItem('', 'backendKeyAreaTitle3', 'backendKeyArea3', '', '', ''),
+      createGridItem('', 'backendKeyAreaTitle4', 'backendKeyArea4', '', '', ''),
+      createGridItem('', 'backendKeyAreaTitle5', 'backendKeyArea5', '', '', ''),
+      createGridItem('', 'backendKeyAreaTitle6', 'backendKeyArea6', '', '', ''),
     ]);
 
     return {
@@ -110,15 +110,15 @@ export default {
 
 .overview h2,
 .key-areas h2 {
+  display: inline-block;
   font-size: 1.8em;
-  color:  #33BCE5;
+  color: #33BCE5;
   margin-bottom: 10px;
+  border-bottom: 2px solid #33BCE5;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.key-areas {
-  margin-bottom: 20px;
-  /* Space below the key areas section */
-}
 
 .contact-button {
   display: block;

@@ -14,7 +14,7 @@
     </section>
 
     <section class="key-areas">
-      <h2>Key Areas of Expertise</h2>
+      <h2>Points for Consideration</h2>
       <GridView :items="gridItems" :columns="2" />
     </section>
   </div>
@@ -59,12 +59,12 @@ export default {
     });
 
     const gridItems = computed(() => [
-      createGridItem('', 'nativeAppKeyArea1', '', '', '', ''),
-      createGridItem('', 'nativeAppKeyArea2', '', '', '', ''),
-      createGridItem('', 'nativeAppKeyArea3', '', '', '', ''),
-      createGridItem('', 'nativeAppKeyArea4', '', '', '', ''),
-      createGridItem('', 'nativeAppKeyArea5', '', '', '', ''),
-      createGridItem('', 'nativeAppKeyArea6', '', '', '', ''),
+      createGridItem('', 'nativeAppKeyAreaTitle1', 'nativeAppKeyArea1', '', '', ''),
+      createGridItem('', 'nativeAppKeyAreaTitle2', 'nativeAppKeyArea2', '', '', ''),
+      createGridItem('', 'nativeAppKeyAreaTitle3', 'nativeAppKeyArea3', '', '', ''),
+      createGridItem('', 'nativeAppKeyAreaTitle4', 'nativeAppKeyArea4', '', '', ''),
+      createGridItem('', 'nativeAppKeyAreaTitle5', 'nativeAppKeyArea5', '', '', ''),
+      createGridItem('', 'nativeAppKeyAreaTitle6', 'nativeAppKeyArea6', '', '', ''),
     ]);
 
     return {
@@ -109,13 +109,13 @@ export default {
 
 .overview h2,
 .key-areas h2 {
+  display: inline-block;
   font-size: 1.8em;
-  color:  #33BCE5;
+  color: #33BCE5;
   margin-bottom: 10px;
-}
-
-.key-areas {
-  margin-bottom: 20px; /* Space below the key areas section */
+  border-bottom: 2px solid #33BCE5;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .contact-button {

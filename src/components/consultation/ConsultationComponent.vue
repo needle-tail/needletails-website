@@ -219,14 +219,13 @@ export default {
 
 .overview h2,
 .key-competencies h2 {
+  display: inline-block;
   font-size: 1.8em;
   color: #33BCE5;
   margin-bottom: 10px;
-}
-
-.key-competencies {
+  border-bottom: 2px solid #33BCE5;
+  padding-bottom: 10px;
   margin-bottom: 20px;
-  /* Space below the key competencies section */
 }
 
 .contact-button {

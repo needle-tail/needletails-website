@@ -14,12 +14,6 @@
 
     <section class="project-items">
       <GridView :items="gridItems" :columns="3" />
-      <!-- <GridView
-       :items="gridItems" 
-       :columns="3" 
-       :subtitle-color="'#0F52BA'" 
-       :subtitle-bg-color="'#00000000'" 
-       :externalUrl="externalUrl"/> -->
     </section>
   </div>
 </template>
@@ -64,7 +58,7 @@ export default {
 
     const gridItems = computed(() => [
       createGridItem(
-        'projectTitle_1',
+        '',
         'spinetailedKitProjectTitle',
         'spinetailedKitProject',
         'betweenText',
@@ -88,27 +82,27 @@ export default {
         'https://github.com/needle-tail/white-tipped-sockets'
       ),
       createGridItem(
-        'projectTitle_4',
-        'projectHeader_4',
-        'swiftStompProject',
-        'top',
-        '',
-        'https://github.com/needle-tail'
-      ),
-      createGridItem(
         'projectTitle_5',
         'projectHeader_5',
         'swiftHlsProject',
-        'top',
-        '',
+        'betweenText',
+        'HLSLogo.png',
+        'https://github.com/needle-tail'
+      ),
+      createGridItem(
+        'projectTitle_4',
+        'projectHeader_4',
+        'swiftStompProject',
+        'betweenText',
+        'Stomp.png',
         'https://github.com/needle-tail'
       ),
       createGridItem(
         'projectTitle_6',
         'projectHeader_6',
         'iapEntitlementEngineProject',
-        'top',
-        '',
+        'betweenText',
+        'IAPLogo.png',
         'https://github.com/Cartisim/iap-entitlement-engine'
       ),
     ]);

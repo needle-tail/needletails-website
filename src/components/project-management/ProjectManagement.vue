@@ -13,7 +13,7 @@
     </section>
 
     <section class="key-competencies">
-      <h2>Key Competencies in Product Management</h2>
+      <h2>Product Management Points of Consideration</h2>
       <GridView :items="productGridItems" :columns="2" />
     </section>
 
@@ -30,7 +30,7 @@
     </section>
 
     <section class="key-competencies">
-      <h2>Key Competencies in Project Management</h2>
+      <h2>Project Management Points of Consideration</h2>
       <GridView :items="projectGridItems" :columns="2" />
     </section>
     <button class="contact-button" @click="handleGetInTouch">
@@ -161,14 +161,13 @@ export default {
 
 .overview h2,
 .key-competencies h2 {
+  display: inline-block;
   font-size: 1.8em;
   color: #33BCE5;
   margin-bottom: 10px;
-}
-
-.key-competencies {
+  border-bottom: 2px solid #33BCE5;
+  padding-bottom: 10px;
   margin-bottom: 20px;
-  /* Space below the key competencies section */
 }
 
 .contact-button {

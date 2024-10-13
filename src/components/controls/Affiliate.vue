@@ -91,6 +91,8 @@ p {
   margin-left: 10px;
   line-height: 1.5rem;
   font-weight: 300;
+  box-shadow: none;
+  background-color: transparent !important;
 }
 
 .contact-img {
